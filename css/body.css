@@ -1,0 +1,17 @@
+:root {
+    color: white;
+    background-color: #21177d;
+}
+
+:root,
+body {
+    /* Get rid of elastic scroll in Chrome/Safari */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    padding-top: 3.375rem;
+    text-align: center;
+}

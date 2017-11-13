@@ -1,0 +1,58 @@
+a:focus,
+a:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: underline;
+	color: inherit;
+}
+
+[href] {
+	/* j.mp/webkit-tap-highlight-color */
+	-webkit-tap-highlight-color: rgba(255,255,255,0.0625);
+}
+
+.text-1, h1,
+.text-8, body {
+	font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+	font-style: none;
+	text-transform: none;
+}
+
+.text-1, h1       {
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
+    font-size: 7.073170vw;
+    line-height: 1.057471em;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+}
+
+.text-8, body     {
+    font-family: 'Domine', Georgia, serif;
+    font-size: 0.875rem;
+    line-height: 1.25em;
+    font-weight: 700;
+}
+
+@media (min-width: 76.875em) {
+    .text-1, h1       {
+        font-family: 'Josefin Sans', Helvetica, sans-serif;
+        font-size: 5.4375rem;
+        line-height: 5.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .text-8, body     {
+        font-family: 'Domine', Georgia, serif;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        font-weight: 700;
+    }
+}
+
+.text-1 + .text-8 {
+    margin-top: 0.375rem;
+}

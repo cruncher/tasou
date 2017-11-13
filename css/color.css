@@ -1,0 +1,10 @@
+
+:root { --white-color: white; }
+.white-fg   { color: white; }
+.white-bg   { background-color: white; }
+.white-fill { fill: white; }
+
+:root { --blue-color: #21177d; }
+.blue-fg   { color: #21177d; }
+.blue-bg   { background-color: #21177d; }
+.blue-fill { fill: #21177d; }

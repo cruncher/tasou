@@ -1,0 +1,24 @@
+/*
+   Extract from
+   github.com/stephband/block
+   classes/html.css
+*/
+
+.block {
+	display: block;
+
+	/* Set as position parent */
+	position: relative;
+
+	/* Force img, video, svg to scale. */
+	height: auto;
+
+	/* Set them up to play nice as inline-blocks. */
+	vertical-align: top;
+	overflow: visible;
+
+	/* Negate possible spacing when .block is used on something typographic like
+	   a <p>, for example. Also, make blocks behave as centered wraps by default. */
+	margin: 0 auto;
+	padding: 0;
+}

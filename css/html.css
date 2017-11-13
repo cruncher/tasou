@@ -1,0 +1,58 @@
+/*
+   Extract from
+   github.com/stephband/bolt
+   classes/html.css
+*/
+
+html, body, div, span,
+object, iframe, canvas, img, svg, audio, video, track, math,
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,
+a, abbr, address, code, time,
+br, del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, dialog, figure, figcaption, footer, header,
+nav, main, section, summary,
+form, fieldset, label, legend, input, output, button, select, textarea,
+progress, meter,
+::before, ::after {
+	/* Here's what makes Bolt a little different. Border box.
+	   It'a a breath of fresh air to work with. */
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+
+	/* Set the dimensions of backgrounds to the limits of the
+	   padding box. */
+	-webkit-background-origin: padding-box;
+	   -moz-background-origin: padding;
+	        background-origin: padding-box;
+
+	/* Default to backgrounds that don't repeat. */
+	background-repeat: no-repeat;
+}
+
+html,
+:root {
+	height: 100%;
+
+	/* Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+	   http://clagnut.com/blog/348/#c790 */
+	font-size: 100%;
+	line-height: 1.15;
+
+	/* Prevents iOS text size adjust after orientation change, without disabling user zoom
+	   www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+
+	/* Setting a background on <html> means that a background
+	   on <body> does not get set on <html>. Win. */
+	color: #000000;
+	background-color: white;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
